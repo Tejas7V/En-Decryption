@@ -1,5 +1,6 @@
+//Function for en/decryption
 private static final String ALGORITHM = "AES";
-    private static final String TRANSFORMATION = "AES";
+private static final String TRANSFORMATION = "AES";
  
     public static String encrypt(String key, String inputStr)
             throws CryptoException {
